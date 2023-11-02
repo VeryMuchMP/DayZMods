@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{6EE9A134FDC6B77A}Loadingscreen.edds"
+ Author "desktop-2pj62oe"
+ ChangeDate 894234462
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Loadingscreen.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

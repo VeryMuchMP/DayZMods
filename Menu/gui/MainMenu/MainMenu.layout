@@ -1,0 +1,462 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  ImageWidgetClass background {
+   visible 1
+   ignorepointer 1
+   position 0.00035 -0.00079
+   size 1960.37 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 0
+   imageTexture "{722B730F3EF55F76}Menu/gui/MainMenu/Images/Menu.edds"
+   stretch 1
+  }
+  FrameWidgetClass top_root {
+   ignorepointer 1
+   color 0 0 0 0.8627
+   position 0.24956 0.7431
+   size 1370 204.70799
+   halign right_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   {
+    ButtonWidgetClass exit {
+     color 0 0 0 0.549
+     position 997.80298 164.69301
+     size 372.17999 40.291
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     font "gui/fonts/Metron"
+     {
+      TextWidgetClass exit_title {
+       ignorepointer 1
+       position -0.44569 0
+       size 1.00213 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "exact text" 1
+       text_proportion 0.6
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    ButtonWidgetClass settings {
+     color 0 0 0 0.549
+     position 998.07599 54.7667
+     size 372.004 43.988
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     {
+      TextWidgetClass settings_title {
+       ignorepointer 1
+       position -0.00122 0
+       size 1.00031 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "exact text" 1
+       text_proportion 0.6
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    ButtonWidgetClass customize_character {
+     color 0 0 0 0.549
+     position 997.89404 -0.43569
+     size 372.21701 48.138
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     {
+      TextWidgetClass character_title {
+       ignorepointer 1
+       position 0.24423 0
+       size 0.99944 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       "exact text" 1
+       text_proportion 0.6
+       "size to text h" 0
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    ButtonWidgetClass discord {
+     color 0 0 0 0.549
+     position 998.11298 49.6878
+     size 370.59399 44.078
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass discord_title {
+       ignorepointer 1
+       color 1 1 1 0.7059
+       position -0.84971 -0.52591
+       size 1.0087 1.03601
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       text_proportion 0.5
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  GridSpacerWidgetClass stats_root {
+   ignorepointer 1
+   color 0 0 0 0.3922
+   position 19.7872 -282.24203
+   size 432.35999 298.513
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 0
+   Margin 0
+   Columns 2
+   {
+    FrameWidgetClass TimeSurvived {
+     ignorepointer 1
+     position 10 10
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass TimeSurvivedValue {
+       ignorepointer 1
+       position 0.0429 0.3
+       size 0.90959 0.3
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "size to text h" 0
+       "size to text v" 0
+       "text valign" center
+      }
+      TextWidgetClass TimeSurvivedLabel {
+       ignorepointer 1
+       color 1 1 1 0.7059
+       position 0.0429 0
+       size 0.90959 0.4
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "#main_menu_time"
+       font "gui/fonts/etelkatextpro"
+       text_proportion 0.7
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    FrameWidgetClass InfectedKilled {
+     ignorepointer 1
+     position 10 10
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass InfectedKilledValue {
+       ignorepointer 1
+       position 0.0609 0.3
+       size 0.87037 0.3
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "text valign" center
+      }
+      TextWidgetClass InfectedKilledLabel {
+       ignorepointer 1
+       color 1 1 1 0.7059
+       position 0.0609 0
+       size 0.87037 0.4
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "#main_menu_infected_killed"
+       font "gui/fonts/etelkatextpro"
+       text_proportion 0.7
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    FrameWidgetClass DistanceTraveled {
+     ignorepointer 1
+     position 10 10
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass DistanceTraveledValue {
+       ignorepointer 1
+       position 0.0429 0.3
+       size 0.90959 0.3
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "text valign" center
+      }
+      TextWidgetClass DistanceTraveledLabel {
+       ignorepointer 1
+       color 1 1 1 0.7059
+       position 0.0429 0
+       size 0.90959 0.4
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "#Distance"
+       font "gui/fonts/etelkatextpro"
+       text_proportion 0.7
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    FrameWidgetClass LongRangeShot {
+     ignorepointer 1
+     position 10 10
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass LongRangeShotValue {
+       ignorepointer 1
+       position 0.0609 0.3
+       size 0.87037 0.3
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "text valign" center
+      }
+      TextWidgetClass LongRangeShotLabel {
+       ignorepointer 1
+       color 1 1 1 0.7059
+       position 0.0609 0
+       size 0.87093 0.4
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "#c_maxdist"
+       font "gui/fonts/etelkatextpro"
+       text_proportion 0.7
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    FrameWidgetClass PlayersKilled {
+     ignorepointer 1
+     size 48 48
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass PlayersKilledValue {
+       ignorepointer 1
+       position 0.0429 0.3
+       size 0.90959 0.3
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "text valign" center
+      }
+      TextWidgetClass PlayersKilledLabel {
+       ignorepointer 1
+       color 1 1 1 0.7059
+       position 0.0429 0
+       size 0.90959 0.4
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "#main_menu_players_killed"
+       font "gui/fonts/etelkatextpro"
+       text_proportion 0.7
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  TextWidgetClass character_name {
+   ignorepointer 1
+   position 1468.46008 78.3626
+   size 373.814 40
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   font "gui/fonts/etelkatextpro"
+   "text valign" center
+  }
+  PanelWidgetClass play_root {
+   ignorepointer 1
+   color 0 0 0 0.3922
+   position 1455.66003 289.634
+   size 385.233 148.868
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    ButtonWidgetClass play {
+     color 1 1 1 0.0392
+     position -0.00207 0.00464
+     size 1.00518 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     {
+      TextWidgetClass play_title {
+       ignorepointer 1
+       position -1.95468 -1.38231
+       size 1.00242 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text_proportion 0.5
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  GridSpacerWidgetClass copyright {
+   ignorepointer 1
+   position 10 10
+   size 500 60
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   Padding 0
+   Margin 0
+   Columns 1
+   Rows 2
+   {
+    TextWidgetClass version {
+     ignorepointer 1
+     size 1 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     font "gui/fonts/etelkatextpro"
+     text_proportion 0.6
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass includelow {
+     ignorepointer 1
+     size 1 30
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#c_modded"
+     font "gui/fonts/etelkatextpro"
+     text_proportion 0.6
+     "text halign" right
+     "text valign" center
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+//<'SkinningMod.pbo' properties via Mikero's dos tools, dll version 8.35>
+product=dayz ugc;
+version=2;
+prefix=SkinningMod;
+//PboType=Arma Addon;
+//</properties>

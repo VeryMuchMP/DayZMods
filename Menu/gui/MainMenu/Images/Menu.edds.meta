@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AEFB0BD6B90133C3}Menu.edds"
+ Author "desktop-2pj62oe"
+ ChangeDate 1734668126
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Menu.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
